@@ -3,9 +3,11 @@ export function parseRemote(address, method = "ssh") {
     /^(?:([a-zA-Z0-9_][a-zA-Z0-9_.-]*)@)?(\[[a-fA-F0-9:]+\]|[a-zA-Z0-9][a-zA-Z0-9.-]*)(?::(\d{1,5}))?$/.exec(
       address,
     );
-  if (!match || (method === "rdp" && match[1]))
+  if (!match || (method !== "ssh" && match[1]))
     throw Error("Use a valid hostname or user@host:port.");
-  const port = Number(match[3] || (method === "rdp" ? 3389 : 22));
+  const port = Number(
+    match[3] || (method === "rdp" ? 3389 : method === "telnet" ? 23 : 22),
+  );
   if (port < 1 || port > 65535)
     throw Error("Port must be between 1 and 65535.");
   return { host: match[2].replace(/^\[|\]$/g, ""), user: match[1] || "", port };
@@ -34,6 +36,11 @@ export function launchProtocol(entry) {
     const host = p.host.includes(":") ? `[${p.host}]` : p.host;
     return `ssh://${p.user ? encodeURIComponent(p.user) + "@" : ""}${host}:${p.port}`;
   }
+  if (entry.method === "telnet") {
+    const p = parseRemote(entry.address, "telnet");
+    const host = p.host.includes(":") ? `[${p.host}]` : p.host;
+    return `telnet://${host}:${p.port}`;
+  }
   if (entry.method === "rdp") {
     const p = parseRemote(entry.address, "rdp");
     return `rdp://${p.host}:${p.port}`;
@@ -46,7 +53,8 @@ export function launchProtocol(entry) {
 }
 
 export function desktopProtocol(entry) {
-  if (!["rdp", "ssh"].includes(entry.method)) return launchProtocol(entry);
+  if (!["rdp", "ssh", "telnet"].includes(entry.method))
+    return launchProtocol(entry);
   parseRemote(entry.address, entry.method);
   const encoded = btoa(entry.address)
     .replaceAll("+", "-")

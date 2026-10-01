@@ -44,7 +44,7 @@ All executable source is present in this workspace. There are no deferred implem
 
 `src/App.jsx`, `EntryCard.jsx`, `LoginView.jsx`, `Navbar.jsx`, `Sidebar.jsx`, `PasswordChangeModal.jsx`, `TwoFactorModal.jsx`, `BackupModal.jsx`, `AutoLoginModal.jsx`, `CommandPalette.jsx`, and `server/ssh.js` were replaced by the files above. Their supported user-facing functions are integrated into the new workspace. The old unverified SSH transport and competing RDP auto-redirects are not retained.
 
-Original user-provided `logo.png`, `public/logo.png`, and `Demo UI.jpeg` are preserved as references and are not required at runtime. Existing `.env` secrets and account passwords were not replaced; local `HOST` was limited to loopback.
+The original root-level reference files `logo.png` and `Demo UI.jpeg` were removed at the user's request. The active branding assets remain in `public/brand/`. Existing `.env` secrets and account passwords were not replaced; local `HOST` was limited to loopback.
 
 ## October 1 privacy and branding update
 - Admin password resets removed; sensitive account changes require recent password confirmation.
@@ -59,3 +59,11 @@ Original user-provided `logo.png`, `public/logo.png`, and `Demo UI.jpeg` are pre
 - Added encrypted owner-only vault archive import/export with password reauthentication, random salt, authenticated encryption, validation before atomic import, and per-entry re-encryption.
 - Added extension/ and DirectLogin UI for explicitly permitted same-origin HTTPS POST login forms. Extension installation is manual; browser automation blocks internal extension-management pages.
 - Added vault roundtrip, tamper, owner isolation, native URL and extension security/form tests. Actual target client connection and third-party login remain dependent on client permissions and target authentication.
+
+## Telnet and publication preparation
+
+- Added Telnet resource validation, selection, default port 23, TCP probes, protocol launching, and Windows terminal support with no automatic downloads.
+- Added hostile-target and protocol tests; launch URLs and process arguments never include passwords.
+- Added self-hosting, user, and publication guides with a demo screenshot.
+- Removed the dashboard introduction and moved Add resource into the search toolbar.
+- Removed the requested root-level reference images.

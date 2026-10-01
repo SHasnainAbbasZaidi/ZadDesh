@@ -547,28 +547,6 @@ export default function Dashboard() {
           </div>
         </header>
         <main className="dashboard">
-          <div className="page-heading">
-            <div>
-              <div className="eyebrow">
-                <span /> YOUR INFRASTRUCTURE, CONNECTED
-              </div>
-              <h1>
-                {category === "All resources"
-                  ? "Everything. One place."
-                  : category}
-              </h1>
-              <p>Your tools, servers, and services. Always within reach.</p>
-            </div>
-            {user.role !== "Viewer" && (
-              <button
-                className="btn btn-primary add-resource"
-                onClick={() => setModal({ type: "entry" })}
-              >
-                <Plus size={18} />
-                Add resource
-              </button>
-            )}
-          </div>
           <div className="overview">
             <div>
               <span className="stat-icon">
@@ -633,6 +611,15 @@ export default function Dashboard() {
                 <option key={c}>{c}</option>
               ))}
             </select>
+            {user.role !== "Viewer" && (
+              <button
+                className="btn btn-primary add-resource"
+                onClick={() => setModal({ type: "entry" })}
+              >
+                <Plus size={18} />
+                Add resource
+              </button>
+            )}
             <span className="results-count">{filtered.length} resources</span>
           </div>
           <div className="view-toolbar">
@@ -911,6 +898,8 @@ const clientUrl = (method) =>
   ({
     rdp: "https://learn.microsoft.com/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients",
     ssh: "https://www.openssh.com/",
+    telnet:
+      "https://learn.microsoft.com/windows-server/administration/windows-commands/telnet",
     anydesk: "https://anydesk.com/downloads",
     rustdesk: "https://rustdesk.com/",
   })[method];
@@ -927,7 +916,8 @@ function download(blob, name) {
 function LaunchDialog({ entry, user, onClose, onBrowserSsh, notify }) {
   const [platform, setPlatform] = useState("windows");
   const rdp = entry.method === "rdp",
-    ssh = entry.method === "ssh";
+    ssh = entry.method === "ssh",
+    telnet = entry.method === "telnet";
   return (
     <Dialog title={`Connect to ${entry.name}`} onClose={onClose}>
       <div className="info-box">
@@ -940,7 +930,7 @@ function LaunchDialog({ entry, user, onClose, onBrowserSsh, notify }) {
       <a className="btn btn-primary" href={desktopProtocol(entry)}>
         Open {rdp ? "Remote Desktop" : ssh ? "terminal" : entry.method}
       </a>
-      {(rdp || ssh) && (
+      {(rdp || ssh || telnet) && (
         <p className="muted">
           Windows requires the ZadDesh desktop launcher on this computer. Run
           desktop/install.ps1 from the project folder once. If the in-app
@@ -963,6 +953,24 @@ function LaunchDialog({ entry, user, onClose, onBrowserSsh, notify }) {
             App. <strong>Linux:</strong> import it into Remmina or use FreeRDP.
           </p>
         </>
+      )}
+      {telnet && (
+        <div className="stack launch-options">
+          <p>
+            Telnet sends traffic and credentials without encryption. Use it only
+            on a trusted management network; prefer SSH when supported.
+          </p>
+          <p>
+            On Windows, enable Telnet Client in Windows Features and rerun
+            desktop/install.ps1 to update the launcher. On other systems,
+            install a Telnet client and use the protocol option below or enter
+            the switch host and port in your client.
+          </p>
+          <p>
+            Sign in at the switch prompt. Saved passwords are never passed in
+            launch URLs or command arguments.
+          </p>
+        </div>
       )}
       {ssh && (
         <div className="stack launch-options">

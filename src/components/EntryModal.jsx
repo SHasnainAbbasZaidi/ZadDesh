@@ -61,6 +61,7 @@ export default function EntryModal({
     setMethod(newMethod);
     if (!address) {
       if (newMethod === "ssh") setAddress("root@192.168.1.50:22");
+      else if (newMethod === "telnet") setAddress("192.168.1.1:23");
       else if (newMethod === "rdp") setAddress("192.168.1.100:3389");
       else if (newMethod === "web") setAddress("https://");
     }
@@ -197,6 +198,7 @@ export default function EntryModal({
               {[
                 { id: "web", label: "Web URL", icon: Globe },
                 { id: "ssh", label: "SSH CLI", icon: Terminal },
+                { id: "telnet", label: "Telnet", icon: Terminal },
                 { id: "rdp", label: "RDP Remote", icon: Monitor },
                 { id: "anydesk", label: "AnyDesk", icon: Radio },
                 { id: "rustdesk", label: "RustDesk", icon: Shield },
@@ -274,9 +276,11 @@ export default function EntryModal({
                   ? "HTTP(S) URL *"
                   : method === "ssh"
                     ? "SSH Host/Address *"
-                    : method === "rdp"
-                      ? "RDP Host[:port] *"
-                      : "Device ID / Code *"}
+                    : method === "telnet"
+                      ? "Telnet Host[:port] *"
+                      : method === "rdp"
+                        ? "RDP Host[:port] *"
+                        : "Device ID / Code *"}
               </label>
               <input
                 type="text"
@@ -287,9 +291,11 @@ export default function EntryModal({
                     ? "https://cpanel.example.com:2083"
                     : method === "ssh"
                       ? "root@10.0.0.5:22"
-                      : method === "rdp"
-                        ? "192.168.1.10:3389"
-                        : "987 654 321"
+                      : method === "telnet"
+                        ? "192.168.1.1:23"
+                        : method === "rdp"
+                          ? "192.168.1.10:3389"
+                          : "987 654 321"
                 }
                 value={address}
                 onChange={(e) => setAddress(e.target.value)}

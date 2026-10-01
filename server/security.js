@@ -99,7 +99,9 @@ export const entrySchema = z
     category: z.string().trim().min(1, "Category is required.").max(50),
     icon: z.string().max(300000).default("server"),
     description: z.string().max(400).default(""),
-    method: z.enum(["web", "rdp", "anydesk", "rustdesk", "ssh"]).default("web"),
+    method: z
+      .enum(["web", "rdp", "anydesk", "rustdesk", "ssh", "telnet"])
+      .default("web"),
     access: z.array(z.number().int().positive()).max(500).default([]),
     credentials: z
       .object({
@@ -110,7 +112,7 @@ export const entrySchema = z
     clearCredentials: z.boolean().optional(),
   })
   .superRefine((e, ctx) => {
-    if (["ssh", "rdp"].includes(e.method)) {
+    if (["ssh", "rdp", "telnet"].includes(e.method)) {
       try {
         parseRemote(e.address, e.method);
       } catch (error) {
@@ -158,7 +160,10 @@ export const entrySchema = z
           path: ["address"],
         });
       }
-    } else if (!/^[a-zA-Z0-9 _-]{3,100}$/.test(e.address)) {
+    } else if (
+      e.method !== "telnet" &&
+      !/^[a-zA-Z0-9 _-]{3,100}$/.test(e.address)
+    ) {
       ctx.addIssue({
         code: "custom",
         message: "Enter a valid remote ID or alias.",

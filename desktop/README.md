@@ -9,3 +9,9 @@ AnyDesk and RustDesk use their vendor handlers; both were already installed on t
 Only the explicit **Download Remote Desktop profile** link downloads an RDP file. Clicking Connect never downloads a profile or launcher. Downloaded profiles remain a manual alternative on macOS/Linux or machines without this bridge. The current bridge is Windows-only; the dialog retains native vendor/protocol options for other platforms.
 
 To unregister the bridge, run `./desktop/uninstall.ps1`. It removes only the current user's `zaddesh:` registration and retains the source/binary files.
+
+## Telnet switches
+
+Choose **Telnet** when adding a resource and enter `switch-host:23` (or a custom port). The launcher runs Windows Telnet Client in a persistent terminal. Enable **Telnet Client** in Windows Features if it is missing, and rerun `./desktop/install.ps1` after updating this repository. The application reports a missing client rather than downloading anything. On other platforms, use an installed client with a registered `telnet://` handler or enter the host and port manually.
+
+Telnet traffic, including credentials, is unencrypted. Prefer SSH whenever available and restrict legacy Telnet to a trusted management network. Credentials are entered at the switch prompt, never included in launch URLs or process arguments. Browser SSH remains SSH-only.

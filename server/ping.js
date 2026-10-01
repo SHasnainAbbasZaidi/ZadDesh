@@ -2,7 +2,7 @@ import net from "node:net";
 import { resolveProbe } from "./network.js";
 import { parseRemote } from "../shared/launch.js";
 export async function pingEntry(address, method) {
-  if (!["web", "rdp", "ssh"].includes(method))
+  if (!["web", "rdp", "ssh", "telnet"].includes(method))
     return {
       online: null,
       latency: null,
