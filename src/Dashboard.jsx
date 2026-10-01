@@ -56,7 +56,13 @@ const Brand = () => (
 );
 const Credit = () => (
   <div className="credit">
-    <strong>Mahzaidex Tech</strong>
+    <img
+      className="company-logo"
+      src="/brand/mahzaidex-tech.png"
+      alt="Mahzaidex Tech"
+      width="160"
+      height="38"
+    />
     <span>Developed by Hasnain Zaidi</span>
   </div>
 );
