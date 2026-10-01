@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ZadDesh Direct Login</title>
+    <style>
+      body {
+        width: 320px;
+        padding: 18px;
+        font: 14px system-ui;
+        background: #15201c;
+        color: #edf5ea;
+      }
+      label {
+        display: block;
+        margin: 18px 0 8px;
+      }
+      input,
+      button {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        margin-top: 6px;
+      }
+      button {
+        background: #b8ed87;
+        border: 0;
+        cursor: pointer;
+      }
+      p {
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>ZadDesh Direct Login</h2>
+    <label
+      >ZadDesh URL<input
+        id="dashboard"
+        placeholder="http://localhost:8443" /></label
+    ><button id="connect">Connect dashboard</button
+    ><label
+      >Website allowed for direct login<input
+        id="target"
+        placeholder="https://panel.example.com" /></label
+    ><button id="allow">Allow this website</button>
+    <p>
+      Permissions are requested per website. Passwords are never saved by this
+      extension. HTTP is allowed only for the local ZadDesh dashboard;
+      destination websites require HTTPS.
+    </p>
+    <p id="status" role="status"></p>
+    <script src="popup.js"></script>
+  </body>
+</html>

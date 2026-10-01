@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "activity",
+    "title": "Activity",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "adguard",
+    "title": "AdGuard",
+    "category": "Services",
+    "hex": "68BC71"
+  },
+  {
+    "id": "adminer",
+    "title": "Adminer",
+    "category": "Database",
+    "hex": "34567C"
+  },
+  {
+    "id": "almalinux",
+    "title": "AlmaLinux",
+    "category": "Operating Systems",
+    "hex": "000000"
+  },
+  {
+    "id": "alpinelinux",
+    "title": "Alpine Linux",
+    "category": "Operating Systems",
+    "hex": "0D597F"
+  },
+  {
+    "id": "amazonwebservices",
+    "title": "Amazon Web Services",
+    "category": "Services",
+    "hex": "232F3E"
+  },
+  {
+    "id": "ansible",
+    "title": "Ansible",
+    "category": "Virtualization & Storage",
+    "hex": "EE0000"
+  },
+  {
+    "id": "anydesk",
+    "title": "AnyDesk",
+    "category": "Remote Access",
+    "hex": "EF443B"
+  },
+  {
+    "id": "apache",
+    "title": "Apache",
+    "category": "Services",
+    "hex": "D22128"
+  },
+  {
+    "id": "apacheairflow",
+    "title": "Apache Airflow",
+    "category": "Services",
+    "hex": "017CEE"
+  },
+  {
+    "id": "apacheant",
+    "title": "Apache Ant",
+    "category": "Services",
+    "hex": "A81C7D"
+  },
+  {
+    "id": "apachecassandra",
+    "title": "Apache Cassandra",
+    "category": "Services",
+    "hex": "1287B1"
+  },
+  {
+    "id": "apachecloudstack",
+    "title": "Apache CloudStack",
+    "category": "Hosting & Cloud",
+    "hex": "2AA5DC"
+  },
+  {
+    "id": "apachecordova",
+    "title": "Apache Cordova",
+    "category": "Services",
+    "hex": "E8E8E8"
+  },
+  {
+    "id": "apachecouchdb",
+    "title": "Apache CouchDB",
+    "category": "Services",
+    "hex": "E42528"
+  },
+  {
+    "id": "apachedolphinscheduler",
+    "title": "Apache DolphinScheduler",
+    "category": "Services",
+    "hex": "85CDF0"
+  },
+  {
+    "id": "apachedruid",
+    "title": "Apache Druid",
+    "category": "Services",
+    "hex": "29F1FB"
+  },
+  {
+    "id": "apacheecharts",
+    "title": "Apache ECharts",
+    "category": "Services",
+    "hex": "AA344D"
+  },
+  {
+    "id": "apacheflink",
+    "title": "Apache Flink",
+    "category": "Services",
+    "hex": "E6526F"
+  },
+  {
+    "id": "apachefreemarker",
+    "title": "Apache FreeMarker",
+    "category": "Services",
+    "hex": "326CAC"
+  },
+  {
+    "id": "apachegroovy",
+    "title": "Apache Groovy",
+    "category": "Services",
+    "hex": "4298B8"
+  },
+  {
+    "id": "apacheguacamole",
+    "title": "Apache Guacamole",
+    "category": "Services",
+    "hex": "578B34"
+  },
+  {
+    "id": "apachehadoop",
+    "title": "Apache Hadoop",
+    "category": "Services",
+    "hex": "66CCFF"
+  },
+  {
+    "id": "apachehbase",
+    "title": "Apache HBase",
+    "category": "Services",
+    "hex": "BE160C"
+  },
+  {
+    "id": "apachehive",
+    "title": "Apache Hive",
+    "category": "Services",
+    "hex": "FDEE21"
+  },
+  {
+    "id": "apachejmeter",
+    "title": "Apache JMeter",
+    "category": "Services",
+    "hex": "D22128"
+  },
+  {
+    "id": "apachekafka",
+    "title": "Apache Kafka",
+    "category": "Services",
+    "hex": "231F20"
+  },
+  {
+    "id": "apachekylin",
+    "title": "Apache Kylin",
+    "category": "Services",
+    "hex": "F09D13"
+  },
+  {
+    "id": "apachelucene",
+    "title": "Apache Lucene",
+    "category": "Services",
+    "hex": "019B8F"
+  },
+  {
+    "id": "apachemaven",
+    "title": "Apache Maven",
+    "category": "Services",
+    "hex": "C71A36"
+  },
+  {
+    "id": "apachenetbeanside",
+    "title": "Apache NetBeans IDE",
+    "category": "Services",
+    "hex": "1B6AC6"
+  },
+  {
+    "id": "apachenifi",
+    "title": "Apache NiFi",
+    "category": "Services",
+    "hex": "728E9B"
+  },
+  {
+    "id": "apacheopenoffice",
+    "title": "Apache OpenOffice",
+    "category": "Services",
+    "hex": "0E85CD"
+  },
+  {
+    "id": "apacheparquet",
+    "title": "Apache Parquet",
+    "category": "Services",
+    "hex": "50ABF1"
+  },
+  {
+    "id": "apachepulsar",
+    "title": "Apache Pulsar",
+    "category": "Services",
+    "hex": "188FFF"
+  },
+  {
+    "id": "apacherocketmq",
+    "title": "Apache RocketMQ",
+    "category": "Services",
+    "hex": "D77310"
+  },
+  {
+    "id": "apachesolr",
+    "title": "Apache Solr",
+    "category": "Services",
+    "hex": "D9411E"
+  },
+  {
+    "id": "apachespark",
+    "title": "Apache Spark",
+    "category": "Services",
+    "hex": "E25A1C"
+  },
+  {
+    "id": "apachestorm",
+    "title": "Apache Storm",
+    "category": "Services",
+    "hex": "225593"
+  },
+  {
+    "id": "apachesuperset",
+    "title": "Apache Superset",
+    "category": "Services",
+    "hex": "20A6C9"
+  },
+  {
+    "id": "apachetomcat",
+    "title": "Apache Tomcat",
+    "category": "Services",
+    "hex": "F8DC75"
+  },
+  {
+    "id": "appwrite",
+    "title": "Appwrite",
+    "category": "Services",
+    "hex": "FD366E"
+  },
+  {
+    "id": "archlinux",
+    "title": "Arch Linux",
+    "category": "Operating Systems",
+    "hex": "1793D1"
+  },
+  {
+    "id": "argo",
+    "title": "Argo",
+    "category": "Services",
+    "hex": "EF7B4D"
+  },
+  {
+    "id": "argos",
+    "title": "Argos",
+    "category": "Services",
+    "hex": "DA291C"
+  },
+  {
+    "id": "artixlinux",
+    "title": "Artix Linux",
+    "category": "Operating Systems",
+    "hex": "10A0CC"
+  },
+  {
+    "id": "asahilinux",
+    "title": "Asahi Linux",
+    "category": "Operating Systems",
+    "hex": "A61200"
+  },
+  {
+    "id": "authentik",
+    "title": "Authentik",
+    "category": "Services",
+    "hex": "FD4B2D"
+  },
+  {
+    "id": "bitbucket",
+    "title": "Bitbucket",
+    "category": "Services",
+    "hex": "0052CC"
+  },
+  {
+    "id": "bitwarden",
+    "title": "Bitwarden",
+    "category": "Services",
+    "hex": "175DDC"
+  },
+  {
+    "id": "caddy",
+    "title": "Caddy",
+    "category": "Services",
+    "hex": "1F88C0"
+  },
+  {
+    "id": "centos",
+    "title": "CentOS",
+    "category": "Operating Systems",
+    "hex": "262577"
+  },
+  {
+    "id": "cisco",
+    "title": "Cisco",
+    "category": "Network & Security",
+    "hex": "1BA0D7"
+  },
+  {
+    "id": "cloud",
+    "title": "Cloud",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "cloudflare",
+    "title": "Cloudflare",
+    "category": "Hosting & Cloud",
+    "hex": "F38020"
+  },
+  {
+    "id": "cloudflarepages",
+    "title": "Cloudflare Pages",
+    "category": "Hosting & Cloud",
+    "hex": "F38020"
+  },
+  {
+    "id": "cloudflareworkers",
+    "title": "Cloudflare Workers",
+    "category": "Hosting & Cloud",
+    "hex": "F38020"
+  },
+  {
+    "id": "cockroachlabs",
+    "title": "Cockroach Labs",
+    "category": "Services",
+    "hex": "6933FF"
+  },
+  {
+    "id": "consul",
+    "title": "Consul",
+    "category": "Services",
+    "hex": "F24C53"
+  },
+  {
+    "id": "coronarenderer",
+    "title": "Corona Renderer",
+    "category": "Hosting & Cloud",
+    "hex": "E6502A"
+  },
+  {
+    "id": "cpanel",
+    "title": "cPanel",
+    "category": "Hosting & Cloud",
+    "hex": "FF6C2C"
+  },
+  {
+    "id": "cpu",
+    "title": "Cpu",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "database",
+    "title": "Database",
+    "category": "Infrastructure",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "datadog",
+    "title": "Datadog",
+    "category": "Monitoring",
+    "hex": "632CA6"
+  },
+  {
+    "id": "dbeaver",
+    "title": "DBeaver",
+    "category": "Services",
+    "hex": "382923"
+  },
+  {
+    "id": "debian",
+    "title": "Debian",
+    "category": "Operating Systems",
+    "hex": "A81D33"
+  },
+  {
+    "id": "digitalocean",
+    "title": "DigitalOcean",
+    "category": "Hosting & Cloud",
+    "hex": "0080FF"
+  },
+  {
+    "id": "directus",
+    "title": "Directus",
+    "category": "Services",
+    "hex": "263238"
+  },
+  {
+    "id": "docker",
+    "title": "Docker",
+    "category": "Virtualization & Storage",
+    "hex": "2496ED"
+  },
+  {
+    "id": "drupal",
+    "title": "Drupal",
+    "category": "Services",
+    "hex": "0678BE"
+  },
+  {
+    "id": "elasticsearch",
+    "title": "Elasticsearch",
+    "category": "Operating Systems",
+    "hex": "005571"
+  },
+  {
+    "id": "eye",
+    "title": "Eye",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "firebase",
+    "title": "Firebase",
+    "category": "Hosting & Cloud",
+    "hex": "DD2C00"
+  },
+  {
+    "id": "firewall",
+    "title": "Firewall",
+    "category": "Infrastructure",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "fortinet",
+    "title": "Fortinet",
+    "category": "Network & Security",
+    "hex": "EE3124"
+  },
+  {
+    "id": "ghost",
+    "title": "Ghost",
+    "category": "Services",
+    "hex": "15171A"
+  },
+  {
+    "id": "ghostery",
+    "title": "Ghostery",
+    "category": "Services",
+    "hex": "00AEF0"
+  },
+  {
+    "id": "gitforwindows",
+    "title": "Git for Windows",
+    "category": "Operating Systems",
+    "hex": "80B3FF"
+  },
+  {
+    "id": "github",
+    "title": "GitHub",
+    "category": "Services",
+    "hex": "181717"
+  },
+  {
+    "id": "githubactions",
+    "title": "GitHub Actions",
+    "category": "Services",
+    "hex": "2088FF"
+  },
+  {
+    "id": "githubcopilot",
+    "title": "GitHub Copilot",
+    "category": "Services",
+    "hex": "000000"
+  },
+  {
+    "id": "githubpages",
+    "title": "GitHub Pages",
+    "category": "Services",
+    "hex": "222222"
+  },
+  {
+    "id": "githubsponsors",
+    "title": "GitHub Sponsors",
+    "category": "Services",
+    "hex": "EA4AAA"
+  },
+  {
+    "id": "gitlab",
+    "title": "GitLab",
+    "category": "Services",
+    "hex": "FC6D26"
+  },
+  {
+    "id": "globe",
+    "title": "Globe",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "godaddy",
+    "title": "GoDaddy",
+    "category": "Hosting & Cloud",
+    "hex": "1BDBDB"
+  },
+  {
+    "id": "googlecloud",
+    "title": "Google Cloud",
+    "category": "Hosting & Cloud",
+    "hex": "4285F4"
+  },
+  {
+    "id": "googlecloudcomposer",
+    "title": "Google Cloud Composer",
+    "category": "Hosting & Cloud",
+    "hex": "4285F4"
+  },
+  {
+    "id": "googlecloudspanner",
+    "title": "Google Cloud Spanner",
+    "category": "Hosting & Cloud",
+    "hex": "4285F4"
+  },
+  {
+    "id": "googlecloudstorage",
+    "title": "Google Cloud Storage",
+    "category": "Hosting & Cloud",
+    "hex": "AECBFA"
+  },
+  {
+    "id": "grafana",
+    "title": "Grafana",
+    "category": "Monitoring",
+    "hex": "F46800"
+  },
+  {
+    "id": "graylog",
+    "title": "Graylog",
+    "category": "Monitoring",
+    "hex": "FF3633"
+  },
+  {
+    "id": "hard-drive",
+    "title": "Hard drive",
+    "category": "Infrastructure",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "helm",
+    "title": "Helm",
+    "category": "Virtualization & Storage",
+    "hex": "0F1689"
+  },
+  {
+    "id": "hetzner",
+    "title": "Hetzner",
+    "category": "Hosting & Cloud",
+    "hex": "D50C2D"
+  },
+  {
+    "id": "homeassistant",
+    "title": "Home Assistant",
+    "category": "Services",
+    "hex": "18BCF2"
+  },
+  {
+    "id": "homeassistantcommunitystore",
+    "title": "Home Assistant Community Store",
+    "category": "Services",
+    "hex": "41BDF5"
+  },
+  {
+    "id": "hostinger",
+    "title": "Hostinger",
+    "category": "Hosting & Cloud",
+    "hex": "673DE6"
+  },
+  {
+    "id": "influxdb",
+    "title": "InfluxDB",
+    "category": "Database",
+    "hex": "22ADF6"
+  },
+  {
+    "id": "insomnia",
+    "title": "Insomnia",
+    "category": "Services",
+    "hex": "4000BF"
+  },
+  {
+    "id": "jellyfin",
+    "title": "Jellyfin",
+    "category": "Services",
+    "hex": "00A4DC"
+  },
+  {
+    "id": "jenkins",
+    "title": "Jenkins",
+    "category": "Services",
+    "hex": "D24939"
+  },
+  {
+    "id": "joomla",
+    "title": "Joomla",
+    "category": "Services",
+    "hex": "5091CD"
+  },
+  {
+    "id": "junipernetworks",
+    "title": "Juniper Networks",
+    "category": "Network & Security",
+    "hex": "84B135"
+  },
+  {
+    "id": "kalilinux",
+    "title": "Kali Linux",
+    "category": "Operating Systems",
+    "hex": "557C94"
+  },
+  {
+    "id": "key",
+    "title": "Key",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "keycloak",
+    "title": "Keycloak",
+    "category": "Services",
+    "hex": "4D4D4D"
+  },
+  {
+    "id": "kubernetes",
+    "title": "Kubernetes",
+    "category": "Virtualization & Storage",
+    "hex": "326CE5"
+  },
+  {
+    "id": "kubuntu",
+    "title": "Kubuntu",
+    "category": "Operating Systems",
+    "hex": "0079C1"
+  },
+  {
+    "id": "layers",
+    "title": "Layers",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "linux",
+    "title": "Linux",
+    "category": "Operating Systems",
+    "hex": "FCC624"
+  },
+  {
+    "id": "linuxcontainers",
+    "title": "Linux Containers",
+    "category": "Operating Systems",
+    "hex": "333333"
+  },
+  {
+    "id": "linuxfoundation",
+    "title": "Linux Foundation",
+    "category": "Operating Systems",
+    "hex": "003778"
+  },
+  {
+    "id": "linuxmint",
+    "title": "Linux Mint",
+    "category": "Operating Systems",
+    "hex": "86BE43"
+  },
+  {
+    "id": "linuxprofessionalinstitute",
+    "title": "Linux Professional Institute",
+    "category": "Operating Systems",
+    "hex": "FDC300"
+  },
+  {
+    "id": "linuxserver",
+    "title": "LinuxServer",
+    "category": "Operating Systems",
+    "hex": "DA3B8A"
+  },
+  {
+    "id": "lock",
+    "title": "Lock",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "lubuntu",
+    "title": "Lubuntu",
+    "category": "Operating Systems",
+    "hex": "0068C8"
+  },
+  {
+    "id": "mariadb",
+    "title": "MariaDB",
+    "category": "Database",
+    "hex": "003545"
+  },
+  {
+    "id": "mariadbfoundation",
+    "title": "MariaDB Foundation",
+    "category": "Database",
+    "hex": "1F305F"
+  },
+  {
+    "id": "microsoft",
+    "title": "Microsoft",
+    "category": "Services",
+    "hex": "5E5E5E"
+  },
+  {
+    "id": "microsoftazure",
+    "title": "Microsoft Azure",
+    "category": "Hosting & Cloud",
+    "hex": "0089D6"
+  },
+  {
+    "id": "mikrotik",
+    "title": "MikroTik",
+    "category": "Network & Security",
+    "hex": "293239"
+  },
+  {
+    "id": "minio",
+    "title": "MinIO",
+    "category": "Services",
+    "hex": "C72E49"
+  },
+  {
+    "id": "mongodb",
+    "title": "MongoDB",
+    "category": "Database",
+    "hex": "47A248"
+  },
+  {
+    "id": "mxlinux",
+    "title": "MX Linux",
+    "category": "Operating Systems",
+    "hex": "000000"
+  },
+  {
+    "id": "mysql",
+    "title": "MySQL",
+    "category": "Database",
+    "hex": "4479A1"
+  },
+  {
+    "id": "nagios",
+    "title": "Nagios",
+    "category": "Monitoring",
+    "hex": "000000"
+  },
+  {
+    "id": "namecheap",
+    "title": "Namecheap",
+    "category": "Hosting & Cloud",
+    "hex": "DE3723"
+  },
+  {
+    "id": "netdata",
+    "title": "Netdata",
+    "category": "Monitoring",
+    "hex": "00AB44"
+  },
+  {
+    "id": "netlify",
+    "title": "Netlify",
+    "category": "Hosting & Cloud",
+    "hex": "00C7B7"
+  },
+  {
+    "id": "network",
+    "title": "Network",
+    "category": "Infrastructure",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "newrelic",
+    "title": "New Relic",
+    "category": "Monitoring",
+    "hex": "1CE783"
+  },
+  {
+    "id": "nextcloud",
+    "title": "Nextcloud",
+    "category": "Hosting & Cloud",
+    "hex": "0082C9"
+  },
+  {
+    "id": "nginx",
+    "title": "NGINX",
+    "category": "Services",
+    "hex": "009639"
+  },
+  {
+    "id": "nginxproxymanager",
+    "title": "Nginx Proxy Manager",
+    "category": "Services",
+    "hex": "F15833"
+  },
+  {
+    "id": "nomad",
+    "title": "Nomad",
+    "category": "Services",
+    "hex": "00CA8E"
+  },
+  {
+    "id": "octanerender",
+    "title": "Octane Render",
+    "category": "Hosting & Cloud",
+    "hex": "000000"
+  },
+  {
+    "id": "openmediavault",
+    "title": "openmediavault",
+    "category": "Services",
+    "hex": "5DACDF"
+  },
+  {
+    "id": "opensearch",
+    "title": "OpenSearch",
+    "category": "Operating Systems",
+    "hex": "005EB8"
+  },
+  {
+    "id": "openvpn",
+    "title": "OpenVPN",
+    "category": "Network & Security",
+    "hex": "EA7E20"
+  },
+  {
+    "id": "openwrt",
+    "title": "OpenWrt",
+    "category": "Network & Security",
+    "hex": "00B5E2"
+  },
+  {
+    "id": "ovh",
+    "title": "OVH",
+    "category": "Hosting & Cloud",
+    "hex": "123F6D"
+  },
+  {
+    "id": "packer",
+    "title": "Packer",
+    "category": "Services",
+    "hex": "02A8EF"
+  },
+  {
+    "id": "perplexity",
+    "title": "Perplexity",
+    "category": "Services",
+    "hex": "1FB8CD"
+  },
+  {
+    "id": "pfsense",
+    "title": "pfSense",
+    "category": "Network & Security",
+    "hex": "212121"
+  },
+  {
+    "id": "phpmyadmin",
+    "title": "phpMyAdmin",
+    "category": "Database",
+    "hex": "6C78AF"
+  },
+  {
+    "id": "pihole",
+    "title": "Pi-hole",
+    "category": "Services",
+    "hex": "96060C"
+  },
+  {
+    "id": "plex",
+    "title": "Plex",
+    "category": "Services",
+    "hex": "EBAF00"
+  },
+  {
+    "id": "podman",
+    "title": "Podman",
+    "category": "Virtualization & Storage",
+    "hex": "892CA0"
+  },
+  {
+    "id": "portainer",
+    "title": "Portainer",
+    "category": "Virtualization & Storage",
+    "hex": "13BEF9"
+  },
+  {
+    "id": "postgresql",
+    "title": "PostgreSQL",
+    "category": "Database",
+    "hex": "4169E1"
+  },
+  {
+    "id": "postman",
+    "title": "Postman",
+    "category": "Services",
+    "hex": "FF6C37"
+  },
+  {
+    "id": "power",
+    "title": "Power",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "prometheus",
+    "title": "Prometheus",
+    "category": "Monitoring",
+    "hex": "E6522C"
+  },
+  {
+    "id": "proxmox",
+    "title": "Proxmox",
+    "category": "Virtualization & Storage",
+    "hex": "E57000"
+  },
+  {
+    "id": "puppet",
+    "title": "Puppet",
+    "category": "Services",
+    "hex": "FFAE1A"
+  },
+  {
+    "id": "puppeteer",
+    "title": "Puppeteer",
+    "category": "Services",
+    "hex": "40B5A4"
+  },
+  {
+    "id": "qnap",
+    "title": "QNAP",
+    "category": "Virtualization & Storage",
+    "hex": "0C2E82"
+  },
+  {
+    "id": "rabbitmq",
+    "title": "RabbitMQ",
+    "category": "Services",
+    "hex": "FF6600"
+  },
+  {
+    "id": "radio",
+    "title": "Radio",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "rdp",
+    "title": "Rdp",
+    "category": "Remote & CLI",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "redhat",
+    "title": "Red Hat",
+    "category": "Operating Systems",
+    "hex": "EE0000"
+  },
+  {
+    "id": "redhatopenshift",
+    "title": "Red Hat Open Shift",
+    "category": "Operating Systems",
+    "hex": "EE0000"
+  },
+  {
+    "id": "redis",
+    "title": "Redis",
+    "category": "Database",
+    "hex": "FF4438"
+  },
+  {
+    "id": "refinedgithub",
+    "title": "Refined GitHub",
+    "category": "Services",
+    "hex": "9E95B7"
+  },
+  {
+    "id": "render",
+    "title": "Render",
+    "category": "Hosting & Cloud",
+    "hex": "000000"
+  },
+  {
+    "id": "rockylinux",
+    "title": "Rocky Linux",
+    "category": "Operating Systems",
+    "hex": "10B981"
+  },
+  {
+    "id": "router",
+    "title": "Router",
+    "category": "Infrastructure",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "rustdesk",
+    "title": "RustDesk",
+    "category": "Remote Access",
+    "hex": "024EFF"
+  },
+  {
+    "id": "sanfranciscomunicipalrailway",
+    "title": "San Francisco Municipal Railway",
+    "category": "Network & Security",
+    "hex": "BA0C2F"
+  },
+  {
+    "id": "scaleway",
+    "title": "Scaleway",
+    "category": "Services",
+    "hex": "4F0599"
+  },
+  {
+    "id": "sentry",
+    "title": "Sentry",
+    "category": "Monitoring",
+    "hex": "362D59"
+  },
+  {
+    "id": "server",
+    "title": "Server",
+    "category": "Infrastructure",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "shield",
+    "title": "Shield",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "simplex",
+    "title": "SimpleX",
+    "category": "Services",
+    "hex": "000000"
+  },
+  {
+    "id": "sonarqube",
+    "title": "SonarQube",
+    "category": "Services",
+    "hex": "4E9BCD"
+  },
+  {
+    "id": "sophos",
+    "title": "Sophos",
+    "category": "Network & Security",
+    "hex": "002B49"
+  },
+  {
+    "id": "splunk",
+    "title": "Splunk",
+    "category": "Monitoring",
+    "hex": "000000"
+  },
+  {
+    "id": "sqlite",
+    "title": "SQLite",
+    "category": "Database",
+    "hex": "003B57"
+  },
+  {
+    "id": "ssh",
+    "title": "Ssh",
+    "category": "Remote & CLI",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "storage",
+    "title": "Storage",
+    "category": "Infrastructure",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "strapi",
+    "title": "Strapi",
+    "category": "Services",
+    "hex": "4945FF"
+  },
+  {
+    "id": "supabase",
+    "title": "Supabase",
+    "category": "Hosting & Cloud",
+    "hex": "3FCF8E"
+  },
+  {
+    "id": "synology",
+    "title": "Synology",
+    "category": "Virtualization & Storage",
+    "hex": "B5B5B6"
+  },
+  {
+    "id": "tailscale",
+    "title": "Tailscale",
+    "category": "Network & Security",
+    "hex": "242424"
+  },
+  {
+    "id": "tcs",
+    "title": "Tata Consultancy Services",
+    "category": "Services",
+    "hex": "EE3984"
+  },
+  {
+    "id": "teamviewer",
+    "title": "TeamViewer",
+    "category": "Remote Access",
+    "hex": "050A52"
+  },
+  {
+    "id": "terminal",
+    "title": "Terminal",
+    "category": "Remote & CLI",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "terraform",
+    "title": "Terraform",
+    "category": "Virtualization & Storage",
+    "hex": "844FBA"
+  },
+  {
+    "id": "traefikmesh",
+    "title": "Traefik Mesh",
+    "category": "Services",
+    "hex": "9D0FB0"
+  },
+  {
+    "id": "traefikproxy",
+    "title": "Traefik Proxy",
+    "category": "Services",
+    "hex": "24A1C1"
+  },
+  {
+    "id": "truenas",
+    "title": "TrueNAS",
+    "category": "Virtualization & Storage",
+    "hex": "0095D5"
+  },
+  {
+    "id": "ubiquiti",
+    "title": "Ubiquiti",
+    "category": "Network & Security",
+    "hex": "0559C9"
+  },
+  {
+    "id": "ubuntu",
+    "title": "Ubuntu",
+    "category": "Operating Systems",
+    "hex": "E95420"
+  },
+  {
+    "id": "ubuntumate",
+    "title": "Ubuntu MATE",
+    "category": "Operating Systems",
+    "hex": "84A454"
+  },
+  {
+    "id": "unraid",
+    "title": "Unraid",
+    "category": "Virtualization & Storage",
+    "hex": "F15A2C"
+  },
+  {
+    "id": "uptimekuma",
+    "title": "Uptime Kuma",
+    "category": "Monitoring",
+    "hex": "5CDD8B"
+  },
+  {
+    "id": "vagrant",
+    "title": "Vagrant",
+    "category": "Services",
+    "hex": "1868F2"
+  },
+  {
+    "id": "vault",
+    "title": "Vault",
+    "category": "Services",
+    "hex": "FFEC6E"
+  },
+  {
+    "id": "vaultwarden",
+    "title": "Vaultwarden",
+    "category": "Services",
+    "hex": "000000"
+  },
+  {
+    "id": "vercel",
+    "title": "Vercel",
+    "category": "Hosting & Cloud",
+    "hex": "000000"
+  },
+  {
+    "id": "vmware",
+    "title": "VMware",
+    "category": "Virtualization & Storage",
+    "hex": "607078"
+  },
+  {
+    "id": "voidlinux",
+    "title": "Void Linux",
+    "category": "Operating Systems",
+    "hex": "478061"
+  },
+  {
+    "id": "vultr",
+    "title": "Vultr",
+    "category": "Hosting & Cloud",
+    "hex": "007BFC"
+  },
+  {
+    "id": "wellsfargo",
+    "title": "Wells Fargo",
+    "category": "Services",
+    "hex": "D71E28"
+  },
+  {
+    "id": "whm",
+    "title": "Whm",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "wifi",
+    "title": "Wifi",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "windows",
+    "title": "Windows",
+    "category": "Operating Systems",
+    "hex": "0078D4"
+  },
+  {
+    "id": "wireguard",
+    "title": "WireGuard",
+    "category": "Network & Security",
+    "hex": "88171A"
+  },
+  {
+    "id": "wireshark",
+    "title": "Wireshark",
+    "category": "Services",
+    "hex": "1679A7"
+  },
+  {
+    "id": "wordpress",
+    "title": "WordPress",
+    "category": "Remote Access",
+    "hex": "21759B"
+  },
+  {
+    "id": "xubuntu",
+    "title": "Xubuntu",
+    "category": "Operating Systems",
+    "hex": "0044AA"
+  },
+  {
+    "id": "zabbix",
+    "title": "Zabbix",
+    "category": "Monitoring",
+    "hex": "D40000"
+  },
+  {
+    "id": "zap",
+    "title": "Zap",
+    "category": "General",
+    "hex": "00d4aa"
+  },
+  {
+    "id": "zerotier",
+    "title": "ZeroTier",
+    "category": "Network & Security",
+    "hex": "FFB441"
+  }
+]

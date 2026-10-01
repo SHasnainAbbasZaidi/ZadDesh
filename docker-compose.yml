@@ -1,0 +1,30 @@
+services:
+  zaddesh:
+    build: .
+    restart: unless-stopped
+    init: true
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 8443
+      DATA_DIR: /app/data
+      VAULT_SECRET: ${VAULT_SECRET:?Set VAULT_SECRET in .env}
+      APP_ORIGIN: ${APP_ORIGIN:?Set your HTTPS public origin}
+      FORCE_HTTPS: 'true'
+      TRUST_PROXY: '1'
+    ports:
+      - '127.0.0.1:${PORT:-8443}:8443'
+    volumes:
+      - zaddesh_data:/app/data
+      - zaddesh_backups:/app/backups
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+volumes:
+  zaddesh_data:
+  zaddesh_backups:

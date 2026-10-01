@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "ZadDesh Direct Login",
+  "version": "1.0.0",
+  "description": "User-approved direct login from your private ZadDesh vault.",
+  "permissions": ["storage", "scripting"],
+  "optional_host_permissions": [
+    "https://*/*",
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" },
+  "icons": { "32": "icon-32.png", "128": "icon-128.png" }
+}
