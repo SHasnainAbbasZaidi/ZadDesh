@@ -54,18 +54,6 @@ const Brand = () => (
     </span>
   </span>
 );
-const Credit = () => (
-  <div className="credit">
-    <img
-      className="company-logo"
-      src="/brand/mahzaidex-tech.png"
-      alt="Mahzaidex Tech"
-      width="160"
-      height="38"
-    />
-    <span>Developed by Hasnain Zaidi</span>
-  </div>
-);
 const Field = ({ label, ...props }) => (
   <label className="field">
     {label}
@@ -396,7 +384,6 @@ export default function Dashboard() {
             Replace your temporary password to unlock your private dashboard.
           </p>
           <PasswordForm json={json} onDone={(u) => setUser(u)} />
-          <Credit />
         </div>
       </div>
     );
@@ -504,7 +491,6 @@ export default function Dashboard() {
               <small>Credentials encrypted at rest</small>
             </div>
           </div>
-          <Credit />
         </div>
       </aside>
       <div className="main-shell">
@@ -1155,7 +1141,6 @@ function Login({ onLogin, json }) {
             </span>
           </div>
         </div>
-        <Credit />
       </div>
       <div className="login-form-side">
         <div className="login-box">
@@ -1218,7 +1203,6 @@ function Login({ onLogin, json }) {
             <LockKeyhole size={13} />
             First time here? Use your administrator-provided temporary password.
           </p>
-          <Credit />
         </div>
       </div>
     </div>
